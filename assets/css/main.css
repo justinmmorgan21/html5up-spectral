@@ -2635,6 +2635,32 @@ button.primary:active,
 	background-color: #eb341c !important;
 }
 
+input[type="submit"].resume,
+input[type="reset"].resume,
+input[type="button"].resume,
+button.resume,
+.button.resume {
+	background-color: #00B599;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].resume:hover,
+input[type="reset"].resume:hover,
+input[type="button"].resume:hover,
+button.resume:hover,
+.button.resume:hover {
+	background-color: #00E8C4 !important;
+}
+
+input[type="submit"].resume:active,
+input[type="reset"].resume:active,
+input[type="button"].resume:active,
+button.resume:active,
+.button.resume:active {
+	background-color: #00E8C4 !important;
+}
+
 input[type="submit"].linkedin,
 input[type="reset"].linkedin,
 input[type="button"].linkedin,
@@ -2650,7 +2676,7 @@ input[type="reset"].linkedin:hover,
 input[type="button"].linkedin:hover,
 button.linkedin:hover,
 .button.linkedin:hover {
-	background-color: #0072B1 !important;
+	background-color: #0099E8 !important;
 }
 
 input[type="submit"].linkedin:active,
@@ -2658,7 +2684,7 @@ input[type="reset"].linkedin:active,
 input[type="button"].linkedin:active,
 button.linkedin:active,
 .button.linkedin:active {
-	background-color: #0072B1 !important;
+	background-color: #0099E8 !important;
 }
 
 input[type="submit"].github,

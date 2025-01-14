@@ -2635,6 +2635,58 @@ button.primary:active,
 	background-color: #eb341c !important;
 }
 
+input[type="submit"].linkedin,
+input[type="reset"].linkedin,
+input[type="button"].linkedin,
+button.linkedin,
+.button.linkedin {
+	background-color: #0077B5;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].linkedin:hover,
+input[type="reset"].linkedin:hover,
+input[type="button"].linkedin:hover,
+button.linkedin:hover,
+.button.linkedin:hover {
+	background-color: #0072B1 !important;
+}
+
+input[type="submit"].linkedin:active,
+input[type="reset"].linkedin:active,
+input[type="button"].linkedin:active,
+button.linkedin:active,
+.button.linkedin:active {
+	background-color: #0072B1 !important;
+}
+
+input[type="submit"].github,
+input[type="reset"].github,
+input[type="button"].github,
+button.github,
+.button.github {
+	background-color: #2b3137;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].github:hover,
+input[type="reset"].github:hover,
+input[type="button"].github:hover,
+button.github:hover,
+.button.github:hover {
+	background-color: #24292e !important;
+}
+
+input[type="submit"].github:active,
+input[type="reset"].github:active,
+input[type="button"].github:active,
+button.linkedin:active,
+.button.linkedin:active {
+	background-color: #24292e !important;
+}
+
 input[type="submit"].disabled,
 input[type="submit"]:disabled,
 input[type="reset"].disabled,
@@ -4047,7 +4099,7 @@ body.is-mobile #main>header {
 /* Footer */
 
 #footer {
-	padding: 6em 0 4em 0;
+	padding: 4em 0 2em 0;
 	background-color: #1d242a;
 	text-align: center;
 }

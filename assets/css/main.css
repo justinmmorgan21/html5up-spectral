@@ -168,6 +168,7 @@ textarea {
 
 html {
 	box-sizing: border-box;
+	scroll-padding-top: 50px;
 }
 
 *,
@@ -2708,9 +2709,35 @@ button.github:hover,
 input[type="submit"].github:active,
 input[type="reset"].github:active,
 input[type="button"].github:active,
-button.linkedin:active,
-.button.linkedin:active {
+button.github:active,
+.button.github:active {
 	background-color: #24292e !important;
+}
+
+input[type="submit"].button-blue,
+input[type="reset"].button-blue,
+input[type="button"].button-blue,
+button.button-blue,
+.button.button-blue {
+	background-color: #4285F4;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].button-blue:hover,
+input[type="reset"].button-blue:hover,
+input[type="button"].button-blue:hover,
+button.button-blue:hover,
+.button.button-blue:hover {
+	background-color: #1266F1 !important;
+}
+
+input[type="submit"].button-blue:active,
+input[type="reset"].button-blue:active,
+input[type="button"].button-blue:active,
+button.button-blue:active,
+.button.button-blue:active {
+	background-color: #1266F1 !important;
 }
 
 input[type="submit"].disabled,
@@ -4236,4 +4263,18 @@ body.is-mobile.landing .wrapper.style4 {
 
 body.is-mobile.landing #footer {
 	background-color: #1d242a;
+}
+
+#visit1,
+#visit2,
+#visit3 {
+	margin: 0px;
+	padding: 0 20px;
+	width: fit-content;
+}
+
+.button-container {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
 }
